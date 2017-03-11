@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Sholok's Notes - Syed Subeh-Sadik Sholok</title><link href="https://sholok404.github.io/" rel="alternate"></link><link href="https://sholok404.github.io/feeds/syed-subeh-sadik-sholok.atom.xml" rel="self"></link><id>https://sholok404.github.io/</id><updated>2017-11-06T03:17:00+06:00</updated><entry><title>Hosting Your Pelican Website in Github Pages</title><link href="https://sholok404.github.io/hosting-your-pelican-website-in-github-pages.html" rel="alternate"></link><published>2017-11-06T03:17:00+06:00</published><updated>2017-11-06T03:17:00+06:00</updated><author><name>Syed Subeh-Sadik Sholok</name></author><id>tag:sholok404.github.io,2017-11-06:/hosting-your-pelican-website-in-github-pages.html</id><summary type="html">&lt;p&gt;Hosting Pelican websites can be pretty complicated; there is not a lot
+of documentation about it. This is why I am writing this article. Also, I am assuming
+you already have built a website using Pelican. Also make sure to delete the output
+directory before proceeding.&lt;/p&gt;
+&lt;p&gt;To get started, create …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hosting Pelican websites can be pretty complicated; there is not a lot
+of documentation about it. This is why I am writing this article. Also, I am assuming
+you already have built a website using Pelican. Also make sure to delete the output
+directory before proceeding.&lt;/p&gt;
+&lt;p&gt;To get started, create two repositories. One of them should be named &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt;.
+Name the other one whatever you want. Then add the first repo as the origin of the
+root of your project. Use this: &lt;code&gt;git remote add origin &amp;lt;url-of-repo&amp;gt;&lt;/code&gt;. Replace the part
+in '&amp;lt;&amp;gt;'s with your repository's url. Then, add your &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; repository
+as a submodule in the output directory. For this, use &lt;code&gt;git submodule add &amp;lt;url-of-repo&amp;gt; output&lt;/code&gt;.
+Then, build your website using &lt;code&gt;pelican -s pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After that, first add, commit and push all the files to its repository. Then navigate
+to the output directory and do the same. You should have your website up and running in
+a few minutes.&lt;/p&gt;</content></entry><entry><title>Kaioken CSS - Probably King Kai's Favourite framework</title><link href="https://sholok404.github.io/kaioken-css-probably-king-kais-favourite-framework.html" rel="alternate"></link><published>2017-03-10T04:00:00+06:00</published><updated>2017-03-10T04:00:00+06:00</updated><author><name>Syed Subeh-Sadik Sholok</name></author><id>tag:sholok404.github.io,2017-03-10:/kaioken-css-probably-king-kais-favourite-framework.html</id><summary type="html">&lt;p&gt;A few days back, I was struggling with Bootstrap mainly because it was too kind
+in the sense that it did too much for me. The problem I mainly faced with was
+colouring; Bootstrap's navbars and other components already had a fixed color
+and modifying something so advanced was pretty …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few days back, I was struggling with Bootstrap mainly because it was too kind
+in the sense that it did too much for me. The problem I mainly faced with was
+colouring; Bootstrap's navbars and other components already had a fixed color
+and modifying something so advanced was pretty complicated. So, I decided watching
+some Dragon Ball Z would be some great stress relief. I soon got bored rewatching
+the same shit and so I decided to go back to coding and this is when I got the idea;
+I could make my own framework! Because I was still in the mood of DBZ, I named
+my framework Kaioken CSS in the sense that it would basically power up CSS functionalities
+and could be used by everyone.&lt;/p&gt;
+&lt;p&gt;Basically, Kaioken CSS is a no-nonsense CSS framework. It comes with a flexbox grid
+system and some UI components like navbars and footers; however it is in no way a
+UI framework. It only includes the layout for some common components so that the developers
+can make their website however they see fit.&lt;/p&gt;
+&lt;p&gt;I've published it under the MIT license and put it up on Github. I've also documented
+it and put up some contribution guidelines. You'd probably want to check it out.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Github repo: &lt;a href="https://github.com/sholok404/kaioken-css"&gt;https://github.com/sholok404/kaioken-css&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wiki: &lt;a href="https://github.com/sholok404/kaioken-css/wiki"&gt;https://github.com/sholok404/kaioken-css/wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Documentationn: &lt;a href="https://github.com/sholok404/kaioken-css/wiki/Documentation"&gt;https://github.com/sholok404/kaioken-css/wiki/Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>WEB DEVELOPMENT AND CLICKING BUTTONS AREN'T THE SAME THING!</title><link href="https://sholok404.github.io/web-development-and-clicking-buttons-arent-the-same-thing.html" rel="alternate"></link><published>2017-03-06T04:40:00+06:00</published><updated>2017-03-06T04:40:00+06:00</updated><author><name>Syed Subeh-Sadik Sholok</name></author><id>tag:sholok404.github.io,2017-03-06:/web-development-and-clicking-buttons-arent-the-same-thing.html</id><summary type="html">&lt;p&gt;So.....My first blog post is already out of topic from my usually geeky
+stuff. Basically, this is me complaining about my parents thinking web development
+is easy stuff. If you didn't already know, I have been programming since I was
+7 so I am pretty good at this stuff …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So.....My first blog post is already out of topic from my usually geeky
+stuff. Basically, this is me complaining about my parents thinking web development
+is easy stuff. If you didn't already know, I have been programming since I was
+7 so I am pretty good at this stuff. I built my first website when I was about
+7 and a half so I got some spotlight among family members but recently my cousin, who is 13,
+managed to do the same thing however, he didn't really code anything. He used
+one of those web site builders; you know like &lt;a href="http://www.simplesite.com/"&gt;SimpleSite&lt;/a&gt;.
+Although I appreciate his efforts, my problem was that my parents thought that
+MAKING &lt;a href="https://sholok404.github.io/digital-agency-theme/"&gt;THIS&lt;/a&gt; and &lt;a href="https://github.com/sholok404/srl-marine-products/"&gt;THIS&lt;/a&gt;
+IS SIMPLE!&lt;/p&gt;
+&lt;p&gt;That is all I have to say. If a close relative of a programmer is reading this,
+please try to appreciate him/her; it requires a lot of effort.&lt;/p&gt;</content></entry></feed>
