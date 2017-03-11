@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>WEB DEVELOPMENT AND CLICKING BUTTONS AREN'T THE SAME THING!</title>
+        <title>Hosting Your Pelican Website in Github Pages</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 
 
 
-        <meta name="description" content="So.....My first blog post is already out of topic from my usually geeky stuff. Basically, this is me complaining about my parents...">
+        <meta name="description" content="Hosting Pelican websites can be pretty complicated; there is not a lot of documentation about it. This is why I am writing this article....">
 
         <meta name="author" content="Syed Subeh-Sadik Sholok">
 
@@ -43,10 +43,10 @@
 
 	<meta property="og:type" content="article">
             <meta property="article:author" content="./author/syed-subeh-sadik-sholok.html">
-	<meta property="og:url" content="./web-development-and-clicking-buttons-arent-the-same-thing.html">
-	<meta property="og:title" content="WEB DEVELOPMENT AND CLICKING BUTTONS AREN'T THE SAME THING!">
-	<meta property="article:published_time" content="2017-03-06 04:40:00+06:00">
-            <meta property="og:description" content="So.....My first blog post is already out of topic from my usually geeky stuff. Basically, this is me complaining about my parents...">
+	<meta property="og:url" content="./hosting-your-pelican-website-in-github-pages.html">
+	<meta property="og:title" content="Hosting Your Pelican Website in Github Pages">
+	<meta property="article:published_time" content="2017-11-06 03:17:00+06:00">
+            <meta property="og:description" content="Hosting Pelican websites can be pretty complicated; there is not a lot of documentation about it. This is why I am writing this article....">
 
             <meta property="og:image" content="./http://peek.space/art/earth-lights-lrg/full.jpg">
 </head>
@@ -85,10 +85,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>WEB DEVELOPMENT AND CLICKING BUTTONS AREN'T THE SAME THING!</h1>
+                        <h1>Hosting Your Pelican Website in Github Pages</h1>
                         <span class="meta">Posted by
                                 <a href="./author/syed-subeh-sadik-sholok.html">Syed Subeh-Sadik Sholok</a>
-                             on Mon 06 March 2017
+                             on Mon 06 November 2017
                         </span>
                         
                     </div>
@@ -103,18 +103,19 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
     <!-- Post Content -->
     <article>
-        <p>So.....My first blog post is already out of topic from my usually geeky
-stuff. Basically, this is me complaining about my parents thinking web development
-is easy stuff. If you didn't already know, I have been programming since I was
-7 so I am pretty good at this stuff. I built my first website when I was about
-7 and a half so I got some spotlight among family members but recently my cousin, who is 13,
-managed to do the same thing however, he didn't really code anything. He used
-one of those web site builders; you know like <a href="http://www.simplesite.com/">SimpleSite</a>.
-Although I appreciate his efforts, my problem was that my parents thought that
-MAKING <a href="https://sholok404.github.io/digital-agency-theme/">THIS</a> and <a href="https://github.com/sholok404/srl-marine-products/">THIS</a>
-IS SIMPLE!</p>
-<p>That is all I have to say. If a close relative of a programmer is reading this,
-please try to appreciate him/her; it requires a lot of effort.</p>
+        <p>Hosting Pelican websites can be pretty complicated; there is not a lot
+of documentation about it. This is why I am writing this article. Also, I am assuming
+you already have built a website using Pelican. Also make sure to delete the output
+directory before proceeding.</p>
+<p>To get started, create two repositories. One of them should be named <code>&lt;username&gt;.github.io</code>.
+Name the other one whatever you want. Then add the first repo as the origin of the
+root of your project. Use this: <code>git remote add origin &lt;url-of-repo&gt;</code>. Replace the part
+in '&lt;&gt;'s with your repository's url. Then, add your <code>&lt;username&gt;.github.io</code> repository
+as a submodule in the output directory. For this, use <code>git submodule add &lt;url-of-repo&gt; output</code>.
+Then, build your website using <code>pelican -s pelicanconf.py</code>.</p>
+<p>After that, first add, commit and push all the files to its repository. Then navigate
+to the output directory and do the same. You should have your website up and running in
+a few minutes.</p>
     </article>
 
 
@@ -125,8 +126,8 @@ please try to appreciate him/her; it requires a lot of effort.</p>
             <div id="disqus_thread"></div>
             <script type="text/javascript">
                 var disqus_shortname = 'sholoks-notes';
-                var disqus_identifier = 'web-development-and-clicking-buttons-arent-the-same-thing.html';
-                var disqus_url = './web-development-and-clicking-buttons-arent-the-same-thing.html';
+                var disqus_identifier = 'hosting-your-pelican-website-in-github-pages.html';
+                var disqus_url = './hosting-your-pelican-website-in-github-pages.html';
                 (function() {
                     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
                     dsq.src = '//sholoks-notes.disqus.com/embed.js';
