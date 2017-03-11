@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-            <meta charset="utf-8">
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>Hosting Your Pelican Website in Github Pages</title>
+        <title>Sholok's Notes - Tag framework</title>
 
         <link href="feeds/all.rss.xml" type="application/atom+xml" rel="alternate" title="Sholok's Notes Full Atom Feed" />
         <!-- Bootstrap Core CSS -->
-        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="../theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="./theme/css/code_blocks/monokai.css" rel="stylesheet">
+            <link href="../theme/css/code_blocks/monokai.css" rel="stylesheet">
 
 
         <!-- Custom Fonts -->
@@ -32,30 +32,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-
-
-        <meta name="description" content="Hosting Pelican websites can be pretty complicated; there is not a lot of documentation about it. This is why I am writing this article....">
-
-        <meta name="author" content="Syed Subeh-Sadik Sholok">
-
-        <meta name="tags" content="github">
-        <meta name="tags" content="github pages">
-        <meta name="tags" content="pelican">
-        <meta name="tags" content="python">
-        <meta name="tags" content="web hosting">
-        <meta name="tags" content="git">
-
-	                <meta property="og:locale" content="">
+                <meta property="og:locale" content="">
 		<meta property="og:site_name" content="Sholok's Notes">
-
-	<meta property="og:type" content="article">
-            <meta property="article:author" content="./author/syed-subeh-sadik-sholok.html">
-	<meta property="og:url" content="./hosting-your-pelican-website-in-github-pages.html">
-	<meta property="og:title" content="Hosting Your Pelican Website in Github Pages">
-	<meta property="article:published_time" content="2017-11-06 03:17:00+06:00">
-            <meta property="og:description" content="Hosting Pelican websites can be pretty complicated; there is not a lot of documentation about it. This is why I am writing this article....">
-
-            <meta property="og:image" content="./http://peek.space/art/earth-lights-lrg/full.jpg">
 </head>
 
 <body>
@@ -71,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./">Sholok's Notes</a>
+                <a class="navbar-brand" href="../">Sholok's Notes</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -86,18 +64,12 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Header -->
         <header class="intro-header" style="background-image: url('http://peek.space/art/earth-lights-lrg/full.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>Hosting Your Pelican Website in Github Pages</h1>
-                        <span class="meta">Posted by
-                                <a href="./author/syed-subeh-sadik-sholok.html">Syed Subeh-Sadik Sholok</a>
-                             on Mon 06 November 2017
-                        </span>
-                        
+                    <div class="page-heading">
+                        <h1>Tag framework</h1>
                     </div>
                 </div>
             </div>
@@ -108,44 +80,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <!-- Post Content -->
-    <article>
-        <p>Hosting Pelican websites can be pretty complicated; there is not a lot
-of documentation about it. This is why I am writing this article. Also, I am assuming
-you already have built a website using Pelican. Also make sure to delete the output
-directory before proceeding.</p>
-<p>To get started, create two repositories. One of them should be named <code>&lt;username&gt;.github.io</code>.
-Name the other one whatever you want. Then add the first repo as the origin of the
-root of your project. Use this: <code>git remote add origin &lt;url-of-repo&gt;</code>. Replace the part
-in '&lt;&gt;'s with your repository's url. Then, add your <code>&lt;username&gt;.github.io</code> repository
-as a submodule in the output directory. For this, use <code>git submodule add &lt;url-of-repo&gt; output</code>.
-Then, build your website using <code>pelican -s pelicanconf.py</code>.</p>
-<p>After that, first add, commit and push all the files to its repository. Then navigate
-to the output directory and do the same. You should have your website up and running in
-a few minutes.</p>
-    </article>
+        <div class="post-preview">
+            <a href="../kaioken-css-probably-king-kais-favourite-framework.html" rel="bookmark" title="Permalink to Kaioken CSS - Probably King Kai's Favourite framework">
+                <h2 class="post-title">
+                    Kaioken CSS - Probably King Kai's Favourite framework
+                </h2>
+            </a>
+                <p class="article-summary">
+                    A few days back, I was struggling with Bootstrap mainly because it was too kind in the sense that it did too much for me. The problem I...
+                </p>
+            <p class="post-meta">Posted by
+                    <a href="../author/syed-subeh-sadik-sholok.html">Syed Subeh-Sadik Sholok</a>
+                 on Fri 10 March 2017
+            </p>
+<p>There are <a data-disqus-identifier="kaioken-css-probably-king-kais-favourite-framework.html" href="../kaioken-css-probably-king-kais-favourite-framework.html#disqus_thread">comments</a>.</p>        </div>
 
-        <div class="tags">
-            <p>tags: <a href="./tag/github.html">github</a>, <a href="./tag/github-pages.html">github pages</a>, <a href="./tag/pelican.html">pelican</a>, <a href="./tag/python.html">python</a>, <a href="./tag/web-hosting.html">web hosting</a>, <a href="./tag/git.html">git</a></p>
-        </div>
-
-    <hr>
-
-        <div class="comments">
-            <h2>Comments !</h2>
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-                var disqus_shortname = 'sholoks-notes';
-                var disqus_identifier = 'hosting-your-pelican-website-in-github-pages.html';
-                var disqus_url = './hosting-your-pelican-website-in-github-pages.html';
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = '//sholoks-notes.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the comments.</noscript>
-        </div>
             </div>
         </div>
     </div>
@@ -224,13 +173,13 @@ a few minutes.</p>
     </footer>
 
     <!-- jQuery -->
-    <script src="./theme/js/jquery.min.js"></script>
+    <script src="../theme/js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="./theme/js/bootstrap.min.js"></script>
+    <script src="../theme/js/bootstrap.min.js"></script>
 
         <!-- Custom Theme JavaScript -->
-        <script src="./theme/js/clean-blog.min.js"></script>
+        <script src="../theme/js/clean-blog.min.js"></script>
 
 <script type="text/javascript">
     var disqus_shortname = 'sholoks-notes';
